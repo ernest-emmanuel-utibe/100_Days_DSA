@@ -1,3 +1,5 @@
+import day_1.BubbleSort;
+
 class BubbleSortTest {
     public static void main(String[] args) {
         BubbleSort bubbleSort = new BubbleSort();

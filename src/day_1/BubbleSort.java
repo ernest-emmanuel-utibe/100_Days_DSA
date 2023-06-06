@@ -1,3 +1,5 @@
+package day_1;
+
 public class BubbleSort {
     public static void bubbleSort(int[] sequence) {
         int number = sequence.length;
