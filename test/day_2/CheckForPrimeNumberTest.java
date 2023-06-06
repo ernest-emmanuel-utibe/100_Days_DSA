@@ -1,17 +1,18 @@
 package day_2;
 
 import org.junit.Test;
-import static org.junit.Assert.assertTrue;
+
+import static org.junit.Assert.assertEquals;
 
 public class CheckForPrimeNumberTest {
 
     @Test
     public void testIsPrime() {
-        assertTrue(CheckForPrimeNumber.isPrime(2));
-        assertTrue(CheckForPrimeNumber.isPrime(3));
-        assertTrue(CheckForPrimeNumber.isPrime(5));
-        assertTrue(CheckForPrimeNumber.isPrime(4));
-        assertTrue(CheckForPrimeNumber.isPrime(6));
-        assertTrue(CheckForPrimeNumber.isPrime(1));
+        assertEquals(true, CheckForPrimeNumber.isPrime(2));
+        assertEquals(true, CheckForPrimeNumber.isPrime(3));
+        assertEquals(true, CheckForPrimeNumber.isPrime(5));
+        assertEquals(false, CheckForPrimeNumber.isPrime(4));
+        assertEquals(false, CheckForPrimeNumber.isPrime(6));
+        assertEquals(false, CheckForPrimeNumber.isPrime(1));
     }
 }
