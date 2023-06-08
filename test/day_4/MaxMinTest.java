@@ -1,6 +1,5 @@
 package day_4;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
 import static day_4.MaxMin.findMaxMin;

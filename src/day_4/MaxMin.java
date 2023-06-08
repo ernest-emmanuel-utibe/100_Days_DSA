@@ -1,7 +1,5 @@
 package day_4;
 
-import java.util.Arrays;
-
 public class MaxMin {
 
     public static void main(String[] args) {
@@ -18,14 +16,14 @@ public class MaxMin {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
 
-        for (int i = 0; i < arr1.length; i++) {
-            max = Math.max(max, arr1[i]);
-            min = Math.min(min, arr1[i]);
+        for (int j : arr1) {
+            max = Math.max(max, j);
+            min = Math.min(min, j);
         }
 
-        for (int i = 0; i < arr2.length; i++) {
-            max = Math.max(max, arr2[i]);
-            min = Math.min(min, arr2[i]);
+        for (int j : arr2) {
+            max = Math.max(max, j);
+            min = Math.min(min, j);
         }
 
         int[] maxMin = new int[2];
