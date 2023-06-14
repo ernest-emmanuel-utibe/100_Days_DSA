@@ -1,3 +1,5 @@
+package day_1;
+
 import day_1.BubbleSort;
 
 class BubbleSortTest {
